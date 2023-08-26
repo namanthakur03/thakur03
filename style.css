@@ -1,0 +1,946 @@
+body{
+    padding: 0px;
+    margin: 0px;
+   
+   
+}
+.navbar li a{
+    text-decoration: none;
+}
+.navbar li{
+    list-style-type:none;
+    margin: 20px;
+    padding: 20px;
+
+}
+.navbar li img{
+    width: 125px;
+    margin-right: 150px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+   background-image:url(./1.jpg);
+   position: sticky;
+   top: 0px;
+   z-index: 1111;
+   overflow-x: hidden;
+  
+
+}
+.navbar div li :hover{
+    color: aqua;
+    background-color: chocolate;
+    cursor: pointer;
+}
+.logo12{
+    display: none;
+    width: 100px;
+    margin: 20px;
+}
+.label1{
+    display: none;
+    position: absolute;
+    left: 350px;
+    top: 20px;
+    font-size: 30px;
+}
+@media(max-width:413px){
+    .navbar{
+        display: none;
+    }
+    .logo12{
+        display: block;
+        width: 100px;
+        margin: 20px;
+    }
+    .label1{
+        display: block;
+        position: absolute;
+        left: 300px;
+        top: 20px;
+        font-size: 30px;
+    }
+    .navbar li img{
+        display: none;
+    }
+    #input11:checked~.navbar{
+        display: block;
+    }
+}
+
+
+.landingpage{
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    background-image: url(./1.jpg);
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+    }
+.landingpage div img{
+    width: 450px;
+   
+
+   
+}
+#down{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 2px;
+    background-color: slategray;
+    color: aliceblue;
+    
+}
+#down:hover{
+    color: blue;
+    background-color: aqua;
+    cursor: pointer;
+}
+.button1{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: slategray;
+
+}
+.button1:hover{
+    color: blue;
+    background-color: aqua;
+    cursor: pointer;
+}
+.myclient{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+ .myclient div{
+    color: white;
+    font-size: 30px;
+ }
+ .myclient1{
+    display: flex;
+    justify-content: center;
+ }   
+ .myclient1 img{
+    margin: 30px;
+    opacity: 0.5;
+
+ }
+ .myclient1 img:hover{
+    opacity: 1;
+ }
+ @media(max-width:413px){
+    .myclient1 img{
+        width: 160px;
+     }
+     .myclient div{
+        color: white;
+        font-size: 23px;
+     }
+ }
+
+
+
+ .imge1{
+    padding: 30px;
+    border-right: 2px solid black;
+}
+
+.imge1 img{
+    width: 60px;
+}
+
+.imge1 span{
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+.dedication{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+}
+@media(max-width:413px){
+    .dedication{
+        display: block;
+        justify-content: center;
+        padding: 20px;
+    
+    }
+    .imge1{
+        padding: 30px;
+        border-right:none;
+    }
+    
+
+}
+
+
+.mainskill{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding: 100px;
+    
+
+}
+.style{
+    font-size: 50px; 
+    color: rgb(4, 4, 80);
+}
+.paragraph{
+    font-size: 20px;
+     color: rgb(37, 79, 66);
+}
+.skills div{
+    border: 2px solid rgb(16, 16, 77);
+    background-color: white;
+    padding: 10px;
+    margin: 50px;
+
+}
+.skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 30px;
+    background-image: url('https://itemsstore.net/html/trito/img/skills/1.jpg');
+  
+}
+.skills1{
+    padding: 50px;
+    color: rgb(234, 12, 12);
+}
+@media(max-width:413px){
+    .mainskill{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        padding: 15px; 
+        
+    }
+    .style{
+        font-size: 35px; 
+        color: rgb(4, 4, 80);
+        padding-left: px;
+    }
+    .paragraph{
+        font-size: 20px;
+         color: rgb(37, 79, 66);
+         padding-left: 10px;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin:30px;
+        background-image: url('https://itemsstore.net/html/trito/img/skills/1.jpg');
+        }
+       
+
+    
+}
+
+
+
+.satisfaction{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(1, 1, 109);
+    padding-bottom: 150px;
+}
+
+@media(max-width:413px){
+    .satisfaction{
+        display: block;
+        padding-left: 50px;
+        font-size: 40px;
+        color: rgb(1, 1, 109);
+        padding-bottom: 100px;
+    }
+    
+    
+}
+.aboutme{
+   
+    color: brown;
+    display: flex;
+    overflow-x: hidden;
+     }
+
+
+.hireme{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: slategray;
+    margin-left: 200px;
+    width: 100px;
+
+}
+.hireme:hover{
+    color: blue;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+
+.systumm{
+    background-image: url(./background\ \(1\).jpg);
+    display: flex;
+   
+   
+    
+
+}
+.develop{
+    margin-left: 85px;
+    font-size: 50px;
+    color: rgb(13, 13, 90);
+    padding-top: 100px;
+    padding-left: 100px;
+    
+}
+#words{
+    padding-right: 200px;
+    margin-left: 175px;
+    font-size: 20px;
+     color: rgb(4, 79, 54);
+}
+.systumm div img{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+   padding-top: 50px;
+   padding-bottom: 100px;
+   padding-left: 50px;
+   
+    
+}
+
+.position{
+    border: 2px solid black;
+    background-color: aliceblue;
+    width: 200px;
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 2750px;
+    left: 140px;
+
+    
+}
+.position1{
+    font-size: 50px;
+    color: red;
+    
+}
+@media(max-width:413px){
+    
+    .systumm{
+        background-image: url(./background\ \(1\).jpg);
+        display: block;
+        padding-left: 70px;
+       }
+    .systumm div img{
+        display: block;
+        justify-content: center;
+        width: 300px;
+        height: 400px;
+       padding-top: 50px;
+       padding-bottom: 100px;
+       padding-left: 2px;
+     }
+     .develop{
+        margin-left: 5px;
+        font-size: 35px;
+        color: rgb(13, 13, 90);
+        padding-top: 50px;
+        padding-left: 30px;
+        
+    } 
+    #words{
+        padding-right: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+     color: rgb(4, 79, 54);
+    }
+    .hireme{
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        background-color: slategray;
+        margin-left: 100px;
+        width: 100px;
+    
+    }
+    .position{
+        border: 2px solid black;
+        background-color: aliceblue;
+        width: 130px;
+        font-size: 30px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 3800px;
+        left: 100px;
+    
+        
+    }
+    .position1{
+        font-size: 25px;
+        color: red;
+        
+    }
+}
+
+
+.photo{
+    padding-top: 185px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.naman{
+    display: flex;
+    justify-content: center;
+
+
+}
+.naman div img{
+    padding-right: 100px;
+    width: 500px;
+    
+}
+
+
+
+
+.ns{
+    margin-right: 200px;
+    color: rgb(3, 3, 74);
+    
+}
+@media(max-width:413px){
+    .naman{
+        display: block;
+        font-size: 20px;
+        }
+        .naman div img{
+            padding-right: 60px;
+            width: 300px;
+           
+            
+        }  
+        .ns{
+    margin-right: 0px;
+    font-size: 10px;
+   
+}
+}
+.img2{
+    display: flex;
+    justify-content: center;
+}
+.img2 div img{
+    width: 100%;
+}
+.img2 div img:hover{
+    scale: 1.3;
+    transition: scale 2s;
+}
+.img2 div{
+    border: 2px solid rgb(11, 11, 77);
+    width: 45%;
+    overflow: hidden;
+    margin: 20px;
+}
+.image3{
+    display: flex;
+    justify-content: center;
+}
+.image3 div img{
+    width: 100%;
+}
+.image3 div img:hover{
+    scale: 1.3;
+    transition: scale 2s;
+}
+.image3 div{
+    border: 2px solid rgb(11, 11, 77);
+    width: 45%;
+    overflow: hidden;
+    margin: 20px;
+}
+ @media(max-width:413px){
+    .img2{
+    display: block;
+}
+.image3{
+    display: block;
+}
+.img2 div{
+    border: 2px solid rgb(11, 11, 77);
+    width: 300px;
+    overflow: hidden;
+    margin: 20px;
+}
+.image3 div{
+    border: 2px solid rgb(11, 11, 77);
+    width: 300px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+ }
+
+
+
+.portfolio2{
+    display: flex;
+    justify-content: center;
+    color: rgb(226, 10, 10);
+}
+.few1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(3, 3, 92);
+    padding-bottom: 50px;
+}
+
+
+
+
+.div2{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(24, 24, 86);
+    width: 800px;
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.plus{
+    font-size: 30px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: white;
+    float: right;
+}
+.show1{  
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(24, 24, 86);
+width: 800px;
+color: white;
+padding: 30px;
+font-size: 15px;
+display: none;
+}
+#input5:checked~.show1{
+    display: block;
+}
+.show2{  
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(24, 24, 86);
+    width: 800px;
+    color: white;
+    padding: 30px;
+    font-size: 15px;
+    display: none;
+    }
+    #input6:checked~.show2{
+        display: block;
+    }
+    .show3{  
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(24, 24, 86);
+        width: 800px;
+        color: white;
+        padding: 30px;
+        font-size: 15px;
+        display: none;
+        }
+        #input7:checked~.show3{
+            display: block;
+        }
+        .show4{  
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(24, 24, 86);
+            width: 800px;
+            color: white;
+            padding: 30px;
+            font-size: 15px;
+            display: none;
+            
+            }
+            #input8:checked~.show4{
+                display: block;
+            }
+            .show5{  
+                margin-left: auto;
+                margin-right: auto;
+                background-color: rgb(24, 24, 86);
+                width: 800px;
+                color: white;
+                padding: 30px;
+                font-size: 15px;
+                display: none;
+                margin-bottom: 100px;
+                
+                }
+                #input9:checked~.show5{
+                    display: block;
+                }
+
+@media(max-width:413px){
+    .portfolio2{
+        display: flex;
+        color: rgb(226, 10, 10);
+    }
+    .few1{
+        display: block;
+        justify-content: center;
+        font-size: 30px;
+        color: rgb(3, 3, 92);
+        padding-bottom: 50px;
+        padding-left: 20px;
+    }
+    .div2{
+   
+    margin-right: 100px;
+    background-color: rgb(24, 24, 86);
+    width: 250px;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+   
+}
+.plus{
+    font-size: 30px;
+    padding: 3px 6px 5px 3px;
+    border-radius: 3px;
+    background-color: aquamarine;
+    color: white;
+    float: right;
+}
+.show1{  
+
+margin-right: 100px;
+background-color: rgb(24, 24, 86);
+width: 250px;
+color: white;
+padding: 30px;
+font-size: 15px;
+display: none;
+}
+#input5:checked~.show1{
+    display: block;
+}
+
+.show2{  
+
+margin-right: 100px;
+background-color: rgb(24, 24, 86);
+width: 250px;
+color: white;
+padding: 30px;
+font-size: 15px;
+display: none;
+}
+
+.show3{  
+
+margin-right: 100px;
+background-color: rgb(24, 24, 86);
+width: 250px;
+color: white;
+padding: 30px;
+font-size: 15px;
+display: none;
+}
+
+.show4{  
+
+margin-right: 100px;
+background-color: rgb(24, 24, 86);
+width: 250px;
+color: white;
+padding: 30px;
+font-size: 15px;
+display: none;
+}
+.show5{  
+
+margin-right: 100px;
+background-color: rgb(24, 24, 86);
+width: 250px;
+color: white;
+padding: 30px;
+font-size: 15px;
+display: none;
+}
+
+}
+
+    
+                
+.portfolio4{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    background-image: url(./1.jpg);
+    padding: 125px;
+    color: rgb(5, 5, 85);
+    
+   
+
+}
+.contact{
+    
+    font-size: 23px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    color: red;
+    background-color: white;
+    
+    
+}
+.contact:hover{
+    color: blue;
+    background-color: aqua;
+    cursor: pointer;
+}
+@media(max-width:413px){
+    .portfolio4{
+        display: block;
+        justify-content: center;
+        font-size: 30px;
+        background-image: url(./1.jpg);
+        padding: 80px;
+        color: rgb(5, 5, 85);
+        
+        }
+        .contact{
+    
+            font-size: 15px;
+            border: 2px solid black;
+            padding: 5px;
+            border-radius: 5px;
+            color: red;
+            background-color: white;
+            
+            
+        }  
+}
+.blog1{
+    display: flex;
+    padding-top: 125px;
+    padding-left: 200px;
+    color: rgb(183, 6, 6);
+}
+.blog2{
+    font-size: 60px;
+    padding-left: 200px;
+    color: rgb(7, 7, 106);
+    padding-top: 7px;
+    padding-bottom: 50px;
+}
+.blog3{
+    display: flex;
+    justify-content: center;
+  
+}
+.blog3 img:hover{
+    scale: 1.3;
+    transition: scale 2s;
+}
+.blog4{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.line1{
+    position: relative;
+    top: 25px;
+    right: 100px;
+    font-size: 24px;
+    color:rgb(56, 123, 190);
+    
+    
+}
+.line2{
+        position: relative;
+        top: 25px;
+        right: 50px;
+        font-size: 24px;
+        color:rgb(58, 119, 180);
+     }
+     .line3{
+        position: relative;
+        top: 25px;
+        right: 0px;
+        font-size: 24px;
+        color:rgb(56, 124, 193);
+        }
+        @media(max-width:413px){
+            .blog1{
+                display: flex;
+                padding-top: 125px;
+                padding-left: 10px;
+                color: rgb(183, 6, 6);}
+            .blog3{
+                display: block;
+               
+            }
+            .blog2{
+                font-size: 33px;
+                padding-left: 10px;
+                color: rgb(7, 7, 106);
+                padding-top: 7px;
+                padding-bottom: 50px;
+            }
+            .blog4{
+                display: block;
+                justify-content: center;
+                padding-bottom: 150px;
+            }
+        }
+        .contact2{
+            display: flex;
+            padding-left: 300px;
+            padding-top: 100px;
+            color: rgb(221, 14, 14);
+            
+        }
+        
+        .contact1{
+            background-image: url(./contactbaground.jpg);
+            padding-bottom: 100px;
+            display: flex;
+            overflow-x: hidden;
+            
+        }
+        .drop{
+            font-size: 60px;
+            padding-left: 300px;
+            color: aliceblue;
+        }
+        .contact3{
+            padding-left:300px;
+            padding-top: 15px;
+            color: aliceblue;
+            
+        }
+        .email{
+            padding-left:300px;
+            padding-top: 15px;
+            padding-bottom: 50px;
+            color: aliceblue;
+        }
+        .logo{
+            
+            padding-top: 30px;
+            padding-left: 300px;
+            color: aliceblue;
+            
+        }
+        .form1{
+            display: flex;
+            justify-content: center;
+            padding-left: 125px;
+            padding-top: 50px;
+            
+        }
+        .div1{
+            width: 400px;
+            height: 450px;
+            border: 2px solid black;
+            margin: 30px;
+            padding: 30px;
+            background-color: white;
+           
+        }
+        .submit1 input:hover{
+            color: rgb(233, 91, 9);
+            background-color: rgb(17, 237, 39);
+            cursor: pointer;    
+        }
+        @media(max-width:413px){
+            .contact1{
+                background-image: url(./contactbaground.jpg);
+                padding-bottom: 100px;
+                display: block;
+               
+            }
+            .drop{
+                font-size: 40px;
+                padding-left: 0px;
+                color: aliceblue;
+            }
+            .contact2{
+                display: flex;
+                padding-left: 10px;
+                padding-top: 100px;
+                color: rgb(221, 14, 14);
+                
+            }
+            .contact3{
+                padding-left:10px;
+                padding-top: 15px;
+                color: aliceblue;
+            }
+            .email{
+                padding-left:10px;
+                padding-top: 15px;
+                padding-bottom: 50px;
+                color: aliceblue;
+            }
+            .logo{
+            
+                padding-top: 10px;
+                padding-left: 10px;
+                color: aliceblue;
+                
+            }
+            .form1{
+                display: block;
+                justify-content: center;
+                padding-left: 0px;
+                padding-top: 50px;
+                
+            }
+            .div1{
+                width: 300px;
+                height: 400px;
+                border: 2px solid black;
+                margin: 30px;
+                padding: 30px;
+                background-color: white;
+               
+            }
+            
+
+        }
+    
